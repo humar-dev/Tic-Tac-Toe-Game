@@ -49,27 +49,27 @@ game.addEventListener('click' ,function()
 
 
 
-// let WinCheck = (letter) => {
+let WinCheck = (letter) => {
 
-//     disablefunction()
-//     if (letter=="X"){
-//         message.innerHTML = " &#x1F389  <br>  X WINS"
-//     }
-//     else{
-//          message.innerHTML = " &#x1F389 <br>  O WINS"
-//     }
-// }
+    disablefunction()
+    if (letter=="X"){
+        message.innerHTML = " &#x1F389  <br>  X WINS"
+    }
+    else{
+         message.innerHTML = " &#x1F389 <br>  O WINS"
+    }
+}
 
-// const disablefunction = () => {
+const disablefunction = () => {
 
-//     buttons.forEach((element) => {
+    buttons.forEach((element) => {
 
-//         element.disabled = "true";
-//     }
+        element.disabled = "true";
+    }
 
-//     )
-//     popup.classList.remove("hide");
-// }
+    )
+    popup.classList.remove("hide");
+}
 
 
 const WinningFunction = () => {
