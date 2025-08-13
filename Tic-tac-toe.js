@@ -46,17 +46,13 @@ game.addEventListener('click' ,function()
 
 
 
-
-
-
 let WinCheck = (letter) => {
-
     disablefunction()
     if (letter=="X"){
-        message.innerHTML = " &#x1F389  <br>  X WINS"
+        message.innerHTML =      " &#x1F389  <br>  X WINS"
     }
     else{
-         message.innerHTML = " &#x1F389 <br>  O WINS"
+         message.innerHTML =     " &#x1F389 <br>  O WINS"
     }
 }
 
@@ -91,7 +87,6 @@ const WinningFunction = () => {
 
 let drawfunction =()=>
 {
-    
     disablefunction()
     message.innerHTML = " &#x1F60E  <br>  It's a D"
 }
@@ -105,7 +100,6 @@ buttons.forEach((element) => {
             xturn = false;
             element.innerHTML = "X";
             element.disabled = true;
-
         }
         else {
             xturn = true;
@@ -118,7 +112,6 @@ buttons.forEach((element) => {
 
             drawfunction();
         } 
-
         WinningFunction();
 
     })
